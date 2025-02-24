@@ -1,0 +1,28 @@
+@import '../../variables.less';
+.footerTabs {
+  margin: 0px !important;
+  text-align: center;
+  border: 0px;
+  background: #fafafa;
+  width: 100%;
+  z-index: 999;
+  :global {
+    .ant-tabs-bar {
+      border: 0px;
+      margin: 0px;
+    }
+    .ant-tabs-nav .ant-tabs-tab {
+      margin: 0px;
+      padding: 2px 16px;
+    }
+    .ant-tabs-nav .ant-tabs-tab:hover {
+      color: rgba(0, 0, 0, 0.65);
+    }
+    .ant-tabs-tab-active {
+      color: #60a14d !important;
+    }
+    .ant-tabs-ink-bar {
+      background-color: #60a14d;
+    }
+  }
+}

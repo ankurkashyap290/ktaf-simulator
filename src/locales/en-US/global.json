@@ -1,0 +1,13 @@
+{
+  "baseTable.clearSelection": "Clear Selection",
+  "exception.goToHome": "Go to Home Page",
+  "global.transportAnalysisFramework": "Transport Analysis Framework",
+  "global.loading": "Loading...",
+  "global.chart.dropDown.placeholder": "--select--",
+  "graphCarousel.cardTitle": "Scenario analysis of",
+  "global.chart.ponderable.zone": "Zone",
+  "global.chart.ponderable.mode": "Mode",
+  "global.chart.ponderable.technology": "Technology",
+  "global.chart.ponderable.sector": "Sector",
+  "global.chart.baseLine": "Baseline"
+}

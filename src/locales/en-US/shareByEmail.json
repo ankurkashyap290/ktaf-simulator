@@ -1,0 +1,14 @@
+{
+  "shareByEmail.listCheckboxErrorMsg": "Please select at least one item to share by clicking the list item checkbox",
+  "shareByEmail.title": "Share By Email As",
+  "shareByEmail.okText": "Share",
+  "shareByEmail.cancelText": "Cancel",
+  "shareByEmail.emailError": "Please specify recipient email address to share with",
+  "shareByEmail.emailPlaceholder": "Recipient Email Address",
+  "shareByEmail.emailSubjectError": "Please specify email subject",
+  "shareByEmail.subject": "Subject",
+  "shareByEmail.subjectPlaceholder": "Email Subject",
+  "shareByEmail.message": "Message",
+  "shareByEmail.messageErrorMsg": "Please specify email message",
+  "shareByEmail.messagePlaceholder": "Email Message (Optional)"
+}

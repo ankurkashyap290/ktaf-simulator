@@ -1,0 +1,14 @@
+{
+  "helpModal.title1": "KTAF Web App Introduction",
+  "helpModal.content1": "The KAPSARC Transport Analysis Framework (KTAF), is a tool for estimating freight transport activity and measuring the impact of transport policy measures   using freely available global data sources, satellite images and nighttime lights.",
+  "helpModal.content2": "Our methodology offers a solution to inadequate data access and allows for scenario building in policy planning for transportation. This approach allows for quick estimation of the effects of policy measures and economic changes on transportation activities at a global level.",
+  "helpModal.content3": "The application is available in both Arabic and English. For more detail on the methodology supporting the KTAF web application, refer to the download section of the help page.",
+  "helpModal.title2": "Download",
+  "helpModal.KTAF_methodology": "KTAF methodology",
+  "helpModal.next": "Next",
+  "helpModal.previous": "Previous",
+  "helpModal.done": "Done",
+  "helpModal.skip": "Skip",
+  "helpModal.startTour": "Tutorial",
+  "helpModal.noticeForMobile": "For full user experience, run the web-application on a desktop computer and laptop browser"
+}

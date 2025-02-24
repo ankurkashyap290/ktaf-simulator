@@ -1,0 +1,14 @@
+{
+  "saveScenario.uniqueScenarioErrorMsg": "يرجى اختيار اسم مميز للسيناريو!",
+  "saveScenario.title": "ملء تفاصيل السيناريو",
+  "saveScenario.nameErrorMsg": "يرجى إدخال اسم السيناريو!",
+  "saveScenario.aboutScenario": "السيناريو عن",
+  "saveScenario.scenarioName": "اسم السيناريو",
+  "saveScenario.descErrorMsg": "يرجى إدخال وصف السيناريو!",
+  "saveScenario.saveButton": "حفظ",
+  "saveScenario.cancelButton": "إلغاء",
+  "saveScenario.notFound": "لم يتم العثور على سيناريو محفوظ",
+  "saveScenario.reset": "إعادة تعيين",
+  "saveScenario.compare": "قارن",
+  "saveScenario.savedForErrorMsg": "Please select the option!"
+}

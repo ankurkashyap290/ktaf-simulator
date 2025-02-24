@@ -1,0 +1,15 @@
+{
+  "createPdf.chartImage.heading": "صور بيانية لجميع التدابير النشطة",
+  "createPdf.chartImage.heading.compareScenario": "مقارنة السيناريوهات",
+  "createPdf.heading": "عرض PDF للبلدة",
+  "createPdf.listOfAppliedPoliciesFor": "قائمة السياسات المطبقة على السيناريو التطبيقي",
+  "createPdf.listOfAppliedPolicies": "قائمة السياسات المطبقة",
+  "createPdf.choroPlethPondreableMapImage": "صورة خريطة Choropleth ل ponderable",
+  "createPdf.choroPlethMapImage": "بيانات خريطة Choropleth",
+  "createPdf.download": "تحميل",
+  "createPdf.cancel": "إلغاء",
+  "createPdf.selectAll": "اختر الكل",
+  "createPdf.choroPlethChartDataTitle": "بيانات المخطط ل ponderable",
+  "createPdf.consumptionData": "Consumption data",
+  "createPdf.title": "تحميل البيانات كما"
+}

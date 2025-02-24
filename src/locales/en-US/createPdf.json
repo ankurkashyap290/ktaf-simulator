@@ -1,0 +1,15 @@
+{
+  "createPdf.chartImage.heading": "Scenario Analysis graph",
+  "createPdf.chartImage.heading.compareScenario": "with comparison of scenarios",
+  "createPdf.heading": "PDF generated for country",
+  "createPdf.listOfAppliedPoliciesFor": "List Of Applied Policies For Applied Scenario",
+  "createPdf.listOfAppliedPolicies": "List Of Applied Policies",
+  "createPdf.choroPlethPondreableMapImage": "heat map",
+  "createPdf.choroPlethMapImage": "Associated heat map data",
+  "createPdf.download": "Download",
+  "createPdf.cancel": "Cancel",
+  "createPdf.selectAll": "Select All",
+  "createPdf.choroPlethChartDataTitle": "Scenario Analysis",
+  "createPdf.consumptionData": "Consumption data",
+  "createPdf.title": "Download Data As"
+}

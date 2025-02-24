@@ -1,0 +1,73 @@
+@import '../../variables.less';
+
+.predefinedEven {
+  background-color: #fff;
+  padding: 8px 10px;
+}
+.predefinedOdd {
+  padding: 8px 10px;
+  background-color: #efefef;
+}
+.listRoot {
+  width: 100%;
+  padding: 0px 20px 0px 20px;
+  :global {
+    .ant-list-item-meta {
+      margin-bottom: 0px;
+      line-height: 41px;
+    }
+    .ant-list-vertical,
+    .ant-list-item-meta-title {
+      margin-bottom: 0px;
+      line-height: 41px;
+    }
+  }
+}
+.shareByEmailField {
+  width: 100%;
+  padding: 0px 20px 0px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.shareByEmailLabel {
+  font-weight: 600;
+}
+.rtlShareByEmailLabel {
+  font-weight: 600;
+  float: right;
+}
+.modelWrapClass {
+  :global {
+    .ant-form-item {
+      margin-bottom: auto !important;
+    }
+  }
+}
+
+.rtlModalWrapper {
+  :global {
+    .ant-modal-content {
+      direction: rtl;
+    }
+    .ant-modal-header {
+      text-align: right;
+    }
+    .ant-form-explain {
+      text-align: right;
+    }
+    .ant-modal-footer .ant-btn {
+      margin-left: 8px;
+    }
+  }
+}
+.selectFileType {
+  :global {
+    .ant-select-selection--single {
+      height: 26px;
+    }
+    .ant-select-selection__rendered {
+      line-height: 26px;
+    }
+  }
+}

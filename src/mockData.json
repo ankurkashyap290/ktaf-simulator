@@ -1,0 +1,176 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "shortName": "sa",
+      "longName": "sau",
+      "name": "Saudi Arabia",
+      "status": "active",
+      "latitude": "23.885942",
+      "longitude": "45.079163",
+      "flagIcon": "SA.png"
+    },
+    {
+      "id": 2,
+      "shortName": "ch",
+      "longName": "chn",
+      "name": "China",
+      "status": "active",
+      "latitude": "35.861660",
+      "longitude": "104.195396",
+      "flagIcon": "China.png"
+    },
+    {
+      "id": 3,
+      "shortName": "in",
+      "longName": "ind",
+      "name": "India",
+      "status": "active",
+      "latitude": "20.593683",
+      "longitude": "78.962883",
+      "flagIcon": "India.png"
+    },
+    {
+      "id": 4,
+      "shortName": "us",
+      "longName": "usa",
+      "name": "United States",
+      "status": "active",
+      "latitude": "37.090240",
+      "longitude": "-95.712891",
+      "flagIcon": "USA.png"
+    },
+    {
+      "id": 5,
+      "shortName": "eu",
+      "longName": "eur",
+      "name": "Europe",
+      "status": "active",
+      "latitude": "50.845540",
+      "longitude": "4.355710",
+      "flagIcon": "Europe.png"
+    }
+  ],
+  "policies": [
+    {
+      "id": 1,
+      "name": "Infrastructure measures",
+      "policies": [
+        {
+          "id": 101,
+          "policyName": "Optimization of transshipment and distribution facilities",
+          "policyDesc": "Description 101",
+          "policyWt": "true",
+          "policyGroupId": 1
+        },
+        {
+          "id": 102,
+          "policyName": "Low emission zones",
+          "policyDesc": "Description 102",
+          "policyWt": "true",
+          "policyGroupId": 1
+        },
+        {
+          "id": 103,
+          "policyName": "Modal shifts",
+          "policyDesc": "Description 103",
+          "policyWt": "true",
+          "policyGroupId": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Information and Communication technologies Provision",
+      "policies": [
+        {
+          "id": 104,
+          "policyName": "Fleet management systems",
+          "policyDesc": "Description 104",
+          "policyWt": "true",
+          "policyGroupId": 2
+        },
+        {
+          "id": 105,
+          "policyName": "Percent different motor technology penetration",
+          "policyDesc": "Description 105",
+          "policyWt": "true",
+          "policyGroupId": 2
+        },
+        {
+          "id": 106,
+          "policyName": "Fuel Economy Standards",
+          "policyDesc": "Description 106",
+          "policyWt": "true",
+          "policyGroupId": 2
+        },
+        {
+          "id": 107,
+          "policyName": "Technological Restriction (age)",
+          "policyDesc": "Description 107",
+          "policyWt": "true",
+          "policyGroupId": 2
+        },
+        {
+          "id": 108,
+          "policyName": "Promotion of eco-driving",
+          "policyDesc": "Description 108",
+          "policyWt": "true",
+          "policyGroupId": 2
+        },
+        {
+          "id": 109,
+          "policyName": "Improving efficiency of city logistics by use ICT",
+          "policyDesc": "Description 109",
+          "policyWt": "true",
+          "policyGroupId": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Pricing measures",
+      "policies": [
+        {
+          "id": 110,
+          "policyName": "Urban road charging, including area licensing and road pricing (congestion pricing)",
+          "policyDesc": "Description 110",
+          "policyWt": "true",
+          "policyGroupId": 3
+        },
+        {
+          "id": 111,
+          "policyName": "Fuel taxes",
+          "policyDesc": "Description 111",
+          "policyWt": "true",
+          "policyGroupId": 3
+        },
+        {
+          "id": 112,
+          "policyName": "Environmental taxes",
+          "policyDesc": "Description 112",
+          "policyWt": "true",
+          "policyGroupId": 3
+        }
+      ]
+    }
+  ],
+  "preDefinedPolicies": [
+    {
+      "id": 1,
+      "name": "Kapsarc",
+      "shortDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "image": "kapsarc_policy.png"
+    },
+    {
+      "id": 2,
+      "name": "Saudi Aramco",
+      "shortDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "image": "saudi_aramco_policy.png"
+    }
+  ]
+}

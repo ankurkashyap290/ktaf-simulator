@@ -1,0 +1,28 @@
+@keyframes blinkColor {
+  from {
+    background-color: #999;
+  }
+  to {
+    background-color: transparent;
+  }
+}
+
+.blinkMe {
+  background-color: #999;
+  animation-name: blinkColor;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotatePolicy {
+  /* animation: rotate 3s linear infinite; */
+}

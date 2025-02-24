@@ -1,0 +1,14 @@
+{
+  "shareByEmail.listCheckboxErrorMsg": "القائمة عنصر اختيار مربع على بالنقر لمشاركة الأقل على واحد عنصر تحديد يرجى",
+  "shareByEmail.title": "مشاركة عبر البريد الإلكتروني باسم",
+  "shareByEmail.okText": "شارك",
+  "shareByEmail.cancelText": "إلغاء",
+  "shareByEmail.emailError": "يرجى تحديد عنوان البريد الإلكتروني للمستلم",
+  "shareByEmail.emailPlaceholder": "البريد الألكتروني للمتلقي",
+  "shareByEmail.emailSubjectError": "يرجى تحديد موضوع البريد الإلكتروني",
+  "shareByEmail.subject": "موضوع",
+  "shareByEmail.subjectPlaceholder": "موضوع البريد الإلكتروني",
+  "shareByEmail.message": "رسالة",
+  "shareByEmail.messageErrorMsg": "يرجى تحديد رسالة البريد الإلكتروني",
+  "shareByEmail.messagePlaceholder": "رسالة البريد الإلكتروني (اختياري)"
+}

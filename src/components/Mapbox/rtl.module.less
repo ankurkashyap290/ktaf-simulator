@@ -1,0 +1,101 @@
+@import '../../variables.less';
+:global {
+  .mapboxgl-ctrl-attrib.mapboxgl-compact {
+    @media (max-width: 420px) {
+      margin: 16px 10px;
+    }
+  }
+  .mapboxgl-ctrl-bottom-left .mapboxgl-ctrl {
+    margin: 0 0 20px 10px;
+  }
+}
+.testMapbox {
+  color: green;
+}
+.tooltip {
+  position: absolute;
+  margin: 0px;
+  padding: 4px;
+  background: #fff;
+  color: #000;
+  max-width: 300px;
+  min-width: 200px;
+  font-size: unit(round(10 / @root-font-size, 3), rem);
+  z-index: 9;
+  border-radius: 10px;
+  pointer-events: none;
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  @media (max-width: 420px) {
+    font-size: unit(round(8 / @root-font-size, 3), rem);
+    max-width: 150px;
+    min-width: 100px;
+  }
+  .icon {
+    font-size: 2em;
+    margin-left: 6px;
+    color: #5c5c5c;
+    @media (max-width: 420px) {
+      font-size: unit(round(12 / @root-font-size, 3), rem);
+    }
+  }
+  .title {
+    font-size: unit(round(8 / @root-font-size, 3), rem);
+    color: #61a24f;
+  }
+  .activePonderable {
+    font-weight: 800;
+    background-color: rgba(97, 162, 79, 0.54);
+    .icon {
+      color: green;
+    }
+  }
+}
+.mapBoxNavigation {
+  position: absolute;
+  @media (min-width: 720px) {
+    left: 10%;
+    bottom: 10%;
+  }
+  @media (max-width: 420px) {
+    right: 35px;
+    bottom: 16px;
+  }
+  @media (max-width: 320px) {
+    right: 35px;
+    bottom: 14px;
+  }
+  :global {
+    .mapboxgl-ctrl {
+      display: flex;
+      box-shadow: none;
+      background-color: transparent;
+    }
+    .mapboxgl-ctrl-zoom-in,
+    .mapboxgl-ctrl-zoom-out {
+      background-color: #fff;
+      margin-right: 5px;
+    }
+    .mapboxgl-ctrl-zoom-in:hover,
+    .mapboxgl-ctrl-zoom-out:hover {
+      background-color: #fff;
+    }
+  }
+}
+
+.predefinedEven {
+  background-color: #fff;
+  padding: 4px 5px;
+}
+.predefinedOdd {
+  padding: 4px 5px;
+  background-color: #efefef;
+}
+
+.tooltipList {
+  display: flex;
+  padding: 10px 5px;
+  @media (max-width: 420px) {
+    padding: 0px 10px;
+  }
+}

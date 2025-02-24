@@ -1,0 +1,33 @@
+@import '../../variables.less';
+.headerTabs {
+  margin: 0px !important;
+  text-align: center;
+  border: 0px;
+
+  :global {
+    .ant-tabs-bar {
+      border: 0px;
+      margin: 0px;
+    }
+    .ant-tabs-nav .ant-tabs-tab {
+      margin: 0px;
+      padding: 5px 16px;
+      @media (max-width: 320px) {
+        padding: 5px 5px;
+      }
+    }
+    .ant-tabs-nav-container {
+      font-size: unit(round(10 / @root-font-size, 3), rem);
+      font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .ant-tabs-tab-active {
+      color: #60a14d;
+    }
+    .ant-tabs-ink-bar {
+      background-color: #60a14d !important;
+    }
+    .ant-tabs-nav .ant-tabs-tab:hover {
+      color: rgba(0, 0, 0, 0.65);
+    }
+  }
+}

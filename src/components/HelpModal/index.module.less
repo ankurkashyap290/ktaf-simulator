@@ -1,0 +1,116 @@
+@import '../../variables.less';
+.modalContent {
+  padding: 10px;
+  @media (max-width: 420px) {
+    padding: 0px 5px;
+    margin-bottom: 8px;
+  }
+  @media (max-width: 320px) {
+    padding: 0px 5px;
+    margin-bottom: 5px;
+  }
+}
+.modalContentRtl {
+  padding: 0px;
+  direction: rtl;
+  @media (max-width: 320px) {
+    padding: 0px 5px;
+    margin-bottom: 7px;
+  }
+}
+.downloadHeading {
+  text-align: center;
+  font-weight: 900;
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+.modalDownloadTitle {
+  padding: 10px;
+  font-weight: 900;
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  @media (max-width: 420px) {
+    font-size: unit(round(12 / @root-font-size, 3), rem);
+  }
+  @media (max-width: 320px) {
+    padding: 5px;
+    margin-bottom: 0.2rem;
+  }
+}
+.modalDownload {
+  @media (max-width: 420px) {
+    font-size: unit(round(12 / @root-font-size, 3), rem);
+  }
+  padding: 10px;
+  font-weight: 900;
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  @media (max-width: 320px) {
+    padding: 5px;
+    font-size: unit(round(12 / @root-font-size, 3), rem);
+  }
+}
+.modalDownloadRtlTitle {
+  padding: 10px;
+  font-weight: 900;
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  direction: rtl;
+  @media (max-width: 320px) {
+    padding: 5px;
+    margin-bottom: 3px;
+  }
+}
+.modalDownloadRtl {
+  padding: 10px;
+  font-weight: 900;
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  direction: rtl;
+  @media (max-width: 320px) {
+    padding: 5px;
+    margin-bottom: 3px;
+  }
+  :global {
+    ul {
+      margin-bottom: 0px;
+    }
+  }
+}
+.modalImage {
+  width: 100%;
+  height: auto;
+}
+.modalDesc {
+  padding: 15px;
+  text-align: left;
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 0.857rem;
+  color: #3e3d3f;
+  h3 {
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 1rem;
+  }
+}
+.introduction {
+  margin: 20px;
+}
+.mobileNoticeEn {
+  text-align: left;
+  @media (max-width: 420px) {
+    font-size: unit(round(9 / @root-font-size, 3), rem);
+  }
+  @media (max-width: 320px) {
+    font-size: unit(round(7.9 / @root-font-size, 3), rem);
+  }
+  background-color: #e6f7ff !important;
+}
+.mobileNoticeAr {
+  text-align: left;
+  @media (max-width: 420px) {
+    font-size: unit(round(9 / @root-font-size, 3), rem);
+  }
+  background-color: #e6f7ff !important;
+}

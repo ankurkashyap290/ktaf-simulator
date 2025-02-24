@@ -1,0 +1,100 @@
+@import '../../variables.less';
+.greenButton {
+  background-color: #60a14d;
+  color: #fff;
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: unit(round(12 / @root-font-size, 3), rem);
+  height: 34px;
+  width: 96%;
+  margin: 4px;
+}
+.grayButton {
+  background-color: #4a4a4a;
+  color: #fff;
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: unit(round(12 / @root-font-size, 3), rem);
+  height: 34px;
+  width: 96%;
+  margin: 4px;
+}
+.grayButton:hover {
+  background-color: #4a4a4a;
+  color: #fff;
+}
+.greenButton:hover,
+.greenButton:focus {
+  background-color: #60a14d;
+  color: #fff;
+  border: 0px;
+}
+.saveScenarioTitle {
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: unit(round(12 / @root-font-size, 3), rem);
+  text-transform: uppercase;
+  color: #4a4a4a;
+}
+
+.saveScenarioFormLabel {
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: unit(round(12 / @root-font-size, 3), rem);
+  color: #4a4a4a;
+  text-align: right;
+}
+
+.predefinedEven {
+  background-color: #fff;
+  padding: 8px 10px;
+}
+.predefinedOdd {
+  padding: 8px 10px;
+  background-color: #efefef;
+}
+
+.preDefinedTitle {
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: unit(round(12 / @root-font-size, 3), rem);
+  text-transform: uppercase;
+  color: #4a4a4a;
+}
+.preDefinedDesc {
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: unit(round(10 / @root-font-size, 3), rem);
+  display: block;
+  line-height: 1;
+  color: #838383;
+}
+.selectedListItem {
+  color: #60a14d;
+}
+
+.blueButton {
+  background-color: #06477d;
+  color: #fff;
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: unit(round(12 / @root-font-size, 3), rem);
+  height: 34px;
+  width: 96%;
+  margin: 4px;
+}
+
+.blueButton:hover,
+.blueButton:focus {
+  background-color: #06477d;
+  color: #fff;
+  border: 0px;
+}
+
+.saveScenarioModel {
+  direction: rtl;
+  :global {
+    .ant-modal-title {
+      text-align: right;
+    }
+    .ant-form-explain {
+      text-align: right;
+    }
+  }
+}

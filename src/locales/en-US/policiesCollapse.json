@@ -1,0 +1,10 @@
+{
+  "policiesCollapse.noPolicyFound": "No policy found",
+  "policiesCollapse.apply": "Apply",
+  "policiesCollapse.cancel": "Cancel",
+  "policiesCollapse.predefinedPolicy.notFound": "No predefined policy found",
+  "policiesCollapse.predefinedPolicy.apply": "Apply",
+  "policiesCollapse.predefinedPolicy.cancel": "Cancel",
+  "policiesCollapse.predefinedPolicy.about": "About",
+  "policiesCollapse.year": "Year"
+}

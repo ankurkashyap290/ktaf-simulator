@@ -1,0 +1,10 @@
+{
+  "policiesCollapse.noPolicyFound": "لم يتم العثور على سياسة",
+  "policiesCollapse.apply": "تطبيق",
+  "policiesCollapse.cancel": "إلغاء",
+  "policiesCollapse.predefinedPolicy.notFound": "لم يتم العثور على سياسة محددة مسبقا",
+  "policiesCollapse.predefinedPolicy.apply": "تطبيق",
+  "policiesCollapse.predefinedPolicy.cancel": "إلغاء",
+  "policiesCollapse.predefinedPolicy.about": "حول",
+  "policiesCollapse.year": "عام"
+}

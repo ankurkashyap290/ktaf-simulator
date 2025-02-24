@@ -1,0 +1,13 @@
+{
+  "baseTable.clearSelection": "اختيار واضح",
+  "exception.goToHome": "الذهاب إلى الصفحة الرئيسية",
+  "global.transportAnalysisFramework": "إطار تحليل النقل",
+  "global.loading": "...جار التحميل",
+  "global.chart.dropDown.placeholder": "--تحديد--",
+  "graphCarousel.cardTitle": "تحليل السيناريو",
+  "global.chart.ponderable.zone": "منطقة",
+  "global.chart.ponderable.mode": "النقل وسيلة",
+  "global.chart.ponderable.technology": "تقنية",
+  "global.chart.ponderable.sector": "قطاع",
+  "global.chart.baseLine": "خط الأساس"
+}

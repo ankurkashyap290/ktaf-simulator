@@ -1,0 +1,83 @@
+@import '../../variables.less';
+.predefinedEven {
+  background-color: #fff;
+  padding: 8px 10px;
+  :global {
+    .ant-list-item-meta-avatar {
+      margin-right: 0px;
+      margin-left: 16px;
+    }
+  }
+}
+.predefinedOdd {
+  padding: 8px 10px;
+  background-color: #efefef;
+  :global {
+    .ant-list-item-meta-avatar {
+      margin-right: 0px;
+      margin-left: 16px;
+    }
+  }
+}
+.preDefinedTitle {
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: unit(round(12 / @root-font-size, 3), rem);
+  text-transform: uppercase;
+  color: #4a4a4a;
+}
+.preDefinedDesc {
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: unit(round(10 / @root-font-size, 3), rem);
+  display: block;
+  line-height: 1;
+  color: #838383;
+}
+.preDefinedImage {
+  width: 73px;
+  height: 73px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+}
+.greenButton {
+  background-color: #60a14d;
+  color: #fff;
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: unit(round(12 / @root-font-size, 3), rem);
+  height: 34px;
+  width: 96%;
+  margin: 4px;
+  border: 0px;
+}
+.grayButton {
+  background-color: #838383;
+  color: #fff;
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: unit(round(12 / @root-font-size, 3), rem);
+  height: 34px;
+  width: 96%;
+  margin: 4px;
+  border: 0px;
+}
+.grayButton:hover {
+  background-color: #838383;
+  color: #fff;
+}
+.preDefinedModelSubTitle {
+  font-size: unit(round(11 / @root-font-size, 3), rem);
+  padding-top: 20px;
+}
+.preDefinedModelTitle {
+  font-size: unit(round(14 / @root-font-size, 3), rem);
+}
+.modelAction {
+  padding-top: 20px;
+}
+.greenButton:hover {
+  background-color: #60a14d;
+  color: #fff;
+}
+.selectedListItem {
+  color: #60a14d;
+}

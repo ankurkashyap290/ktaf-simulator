@@ -1,0 +1,14 @@
+{
+  "saveScenario.uniqueScenarioErrorMsg": "Please select a unique name for scenario!",
+  "saveScenario.title": "Fill Scenario Details",
+  "saveScenario.nameErrorMsg": "Please input scenario name!",
+  "saveScenario.aboutScenario": "About Scenario",
+  "saveScenario.scenarioName": "Scenario Name",
+  "saveScenario.descErrorMsg": "Please input scenario description!",
+  "saveScenario.saveButton": "Save",
+  "saveScenario.cancelButton": "Cancel",
+  "saveScenario.notFound": "No saved scenario found",
+  "saveScenario.reset": "Reset",
+  "saveScenario.compare": "Compare",
+  "saveScenario.savedForErrorMsg": "Please select the option!"
+}

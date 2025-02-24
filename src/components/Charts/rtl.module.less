@@ -1,0 +1,33 @@
+@import '../../variables.less';
+.cardSelectMenu {
+  width: 100%;
+  border-radius: 40px;
+  color: #67a454;
+  font-size: unit(round(11 / @root-font-size, 3), rem);
+  :global {
+    .ant-select-selection {
+      border-radius: 40px;
+      height: 25px !important;
+    }
+    .ant-select-dropdown {
+      width: 150px !important;
+    }
+    .ant-select-selection-selected-value {
+      font-size: unit(round(11 / @root-font-size, 3), rem);
+    }
+    .ant-select-selection__rendered {
+      line-height: 23px;
+    }
+  }
+}
+.cardSelectLabel {
+  font-size: unit(round(11 / @root-font-size, 3), rem);
+  text-align: right;
+  padding-right: 10px;
+}
+
+.cardTitle {
+  padding-right: 22px;
+  text-align: right;
+  width: 100%;
+}
